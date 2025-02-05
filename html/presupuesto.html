@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekio</title>
+    <link rel="stylesheet" href="./../css/navbar.css">
+    <link rel="stylesheet" href="./../css/presupuesto.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <header class="header">
+    <a href="index.html" class="logo">Presupuesto</a>
+
+    <nav class="navbar">
+        <a href="../index.html" >Inicio</a>
+        <a href="./productos.html" >Productos</a>
+        <a href="./presupuesto.html">Presupuesto</a>
+        <a href="./contacto.html" >Contacto</a>
+    </nav>
+
+   </header>
+    
+   <!--Formulario-->
+   <div class="wrapper">
+    <form>
+        <h1>Contáctanos</h1>
+      <div class="input-box">
+           <input id="nombre" 
+           type="text" 
+           name="nombre" 
+           placeholder="Nombre" 
+           title="Los nombres y apellidos requieren un espacio entremedio" 
+           required
+           pattern="([a-zA-Z]{1,30} [a-zA-Z]{1,30})">
+           <i class='bx bxs-user'></i>
+     </div>
+    
+     <div class="input-box"> 
+           <input id="email" type="email" 
+           name="email" placeholder="Correo Electrónico" 
+           pattern="[@][6,12]"
+           required
+           >
+          <i class='bx bxl-gmail'></i> 
+     </div>
+
+        <div class="input-box"> 
+           <input id="text" type="number" 
+           name="number" placeholder="Número telefónico" 
+          >
+           <i class='bx bxs-phone'></i> 
+       </div>
+     
+        <!--Checkbox-->
+        <div class="checkbox-privacidad">
+            <label> <input type="checkbox">Acepta la política de privacidad?</label>
+            <a href="#">Leer</a>
+        </div>
+
+         <label for="feedback">Solicite más información:</label>
+         <textarea id="feedback" name="feedback" rows="5" cols="50" maxlength="250" required placeholder="Ingresa tu comentario aquí"></textarea>
+         <br>
+         <button type="submit" class="btn">Enviar</button>
+    </form>
+   </div>
+        
+   
+
+ 
+
+<!--Footer-->
+<footer class="footer">
+    <ul class="social-icon">
+       <li class="icon-elem">
+          <a href="" class="icon">
+             <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+       </li>
+    
+       <li class="icon-elem">
+          <a href="" class="icon">
+             <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+       </li>
+    
+    
+       <li class="icon-elem">
+          <a href="" class="icon">
+             <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+       </li>
+    
+    
+       <li class="icon-elem">
+          <a href="" class="icon">
+             <ion-icon name="mail-outline"></ion-icon>
+          </a>
+       </li>
+
+       <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+       </li>
+
+    </ul>
+       
+      
+    <ul class="menu">
+       <li class="menu-elem">
+          <a href="" class="menu-icon">
+             Inicio
+          </a>
+       </li>
+
+       <li class="menu-elem">
+          <a href="" class="menu-icon">
+             Equipo
+          </a>
+       </li>
+
+       <li class="menu-elem">
+          <a href="" class="menu-icon">
+             Contacto
+          </a>
+       </li>
+
+       <li class="menu-elem">
+          <a href="" class="menu-icon">
+             Video
+          </a>
+       </li>
+
+       <li class="menu-elem">
+          <a href="" class="menu-icon">
+             Sobre Nosotros
+          </a>
+       </li>
+       </ul>
+       <p class="text">@Año | Todos los derechos reservados</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
